@@ -12,7 +12,8 @@ const onSubmitForm=  async (e)=>{
             headers:{"Content-Type" : "application/json"},
             body: JSON.stringify(body)
     });
-Window.location ="/";
+    // console.log(response)
+window.location ="/";
     } catch (err) {
         console.error(err.message)
     }
